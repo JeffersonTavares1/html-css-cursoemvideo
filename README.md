@@ -50,3 +50,5 @@ Projeto Redes Sociais:
 <a href="https://jeffersontavares1.github.io/html-css-cursoemvideo/desafios/desafio14/index.html">Executar o Projeto</a>
 
 Estudando Formulários
+
+Estudando Media Queries
