@@ -2,9 +2,78 @@
 
 /* Todas as Demais mídias*/
 
+/*impressora*/
+@media print {
+    
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+    
+    /*affter = depois do*/
+    main::affter {
+        content: "Essa impressão foi feita por Jefferson Tavares";
+        text-decoration: overline; /*linha em cima*/
+    }
+    
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+    
+    img#phone { display: none; }
+    img#tablet { display: block; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+}
 
 
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url("../imagens/back-tablet.jpg");
+    }
+    
+    img#phone { display: none; }
+    img#tablet { display: block; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+}
 
 
+/*desktop*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url("../imagens/back-print.jpg");
+    }
+    
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: block; }
+    img#pc { display: none }
+    img#tv { display: none; }
+}
 
 
+/*Grandes telas*/
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url("../imagens/back-tv.jpg");
+    }
+    
+    main {
+        width: 700px;
+    }
+    
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: block; }
+}
