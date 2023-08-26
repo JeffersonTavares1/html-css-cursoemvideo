@@ -9,6 +9,7 @@
     section#login {
         display: flex;
         flex-wrap: wrap;
+        
         flex-direction: row-reverse;
         
         width: 90vw;
@@ -22,6 +23,14 @@
     
     section#login > div#formulario {
         width: 60%;
+    }
+    
+    div#formulario>h1 {
+        font-size: 3rem;
+    }
+    
+    div#formulario>p {
+        font-size: 2rem;
     }
 }
 
@@ -43,6 +52,14 @@
     
     section#login>div#formulario {
         width: 50%;
+    }
+    
+    div#formulario > h1 {
+        font-size: 4rem;
+    }
+    
+    div#formulario > p {
+        font-size: 3rem;
     }
 }
 
