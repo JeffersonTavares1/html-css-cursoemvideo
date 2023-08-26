@@ -8,10 +8,11 @@
     
     section#login {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row-reverse;
         
         width: 90vw;
-        height: 30vh;
+        
     }
     
     section#login > div#imagem {
@@ -30,10 +31,9 @@
     }
     section#login {
         display: flex;
+        flex-wrap: wrap;
         
-    
         width: 950px;
-        height: 30vh;
     }
     
     section#login>div#imagem {
