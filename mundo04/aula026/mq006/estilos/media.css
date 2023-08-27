@@ -12,7 +12,7 @@
     flex-direction: row-reverse;
 
     width: 90vw;
-    height: 80vh;
+    height: 800px;
   }
 
   section#login > div#imagem {
@@ -44,9 +44,8 @@
   section#login {
     display: flex;
     flex-wrap: wrap;
-
     width: 1200px;
-    height: 90vh;
+    height: 900px;
   }
 
   section#login > div#imagem {
