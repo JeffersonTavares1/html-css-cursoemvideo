@@ -32,6 +32,11 @@
     div#formulario>p {
         font-size: 2rem;
     }
+    
+    .sincronizar > a {
+        display: block;
+    }
+        
 }
 
 @media screen and (min-width: 992px) {
@@ -60,6 +65,10 @@
     
     div#formulario > p {
         font-size: 3rem;
+    }
+    
+    .sincronizar>a {
+        display: block;
     }
 }
 
